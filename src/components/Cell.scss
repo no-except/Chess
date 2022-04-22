@@ -1,0 +1,31 @@
+.cell{
+    width:80px;
+    height:80px;
+    position: relative;
+}
+.white{
+    background-color: rgb(233, 195, 195) !important;
+}
+
+.black{
+    background-color: rgb(3, 87, 7) !important;
+}
+.active{
+    background-color: yellow !important;
+}
+
+.red{
+    background-color: red !important;
+    font-size: 10px;
+}
+.can{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color:red;
+    z-index:10;
+}
